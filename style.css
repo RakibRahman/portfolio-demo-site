@@ -1,0 +1,114 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+
+.name-mark {
+    color: blueviolet;
+    /*font color */
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    /*to define how an element shoul float */
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+
+.half-width img {
+    width: 90%;
+}
+
+.top-bnn {
+    background-image: url("../portfolio/img/top-banner.png");
+    background-repeat: no-repeat;
+    /* BG image will not be repeated*/
+}
+
+section {
+    height: 500px;
+    padding-bottom: 150px;
+}
+
+.hireme {
+    text-decoration: none;
+    /* to remove underline from ant text or link*/
+    background-image: linear-gradient(45deg, blueviolet, lightblue);
+    padding: 10px 20px;
+    border-radius: 3em;
+    /* to make border round use border-radius; */
+    color: white;
+    font-weight: 700;
+    /*To make text bold or bolder */
+}
+
+.mid-width {
+    width: 40%;
+    float: right;
+    margin-right: 5%;
+    padding-right: 2%;
+    /* use suitable margin and padding value to correctly align text/image or section  */
+
+}
+
+.mid-width img {
+    width: 90%;
+
+}
+
+.middle-bnn {
+    background-image: url("../portfolio/img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    /* to position BG image to right*/
+}
+
+.visit-gh {
+    text-decoration: none;
+    background-image: linear-gradient(to bottom right, rgb(220, 43, 226), rgb(189, 216, 33));
+    /* linear-gradient changes colors by sequence  */
+
+    padding: 10px 20px;
+    /*top and bottom paddings are 25px
+    right and left paddings are 50px*/
+
+    color: white;
+    font-weight: 700;
+
+}
+.exp-area{
+    /* padding-left:5%;
+    display: inline-block; */
+    background-image: url("../portfolio/img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+.single-experience{
+    box-shadow: 10px 10px 40px blueviolet;
+    height: 80%;
+    border-radius: 5px;
+    background-color: white;
+}
+#full-stack{
+    border-left: 5px solid;
+    border-image: linear-gradient(yellow,red);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(0, 110, 255),rgb(255, 0, 179));
+    border-image-slice: 1;
+}
