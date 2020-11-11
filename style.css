@@ -32,7 +32,7 @@ p{
 }
 
 .top-bnn {
-    background-image: url("../portfolio/img/top-banner.png");
+    background-image: url("img/top-banner.png");
     background-repeat: no-repeat;
     /* BG image will not be repeated*/
 }
@@ -69,7 +69,7 @@ section {
 }
 
 .middle-bnn {
-    background-image: url("../portfolio/img/dream-bg.png");
+    background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
     /* to position BG image to right*/
@@ -91,7 +91,7 @@ section {
 .exp-area{
     /* padding-left:5%;
     display: inline-block; */
-    background-image: url("../portfolio/img/exp-bg.png");
+    background-image: url("img/exp-bg.png");
     background-repeat: no-repeat;
     background-position: left;
     
